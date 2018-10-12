@@ -61,7 +61,7 @@ public class TugasModulBab3 {
         }
                
         Tugas1();
-//        Tugas2();
+        Tugas2();
     }
     
 }
