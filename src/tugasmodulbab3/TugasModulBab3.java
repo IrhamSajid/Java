@@ -28,7 +28,7 @@ public class TugasModulBab3 {
         n2 = scan.nextInt();
         System.out.print("Number 3 = ");
         n3 = scan.nextInt();
-        System.out.println("Rata-Rata = "+ (n1+n2+n3)/(float)3);
+        System.out.println("Rata-Rata = "+ (n1+n2+n3)/3);
     }
     
     public static void Tugas2()
@@ -41,7 +41,7 @@ public class TugasModulBab3 {
         int n2 = Integer.parseInt(number2);
         int n3 = Integer.parseInt(number3);
         
-        String msg = "Number 1 = "+ n1+"\nNumber 2 = "+ n2+"\nNumber 3 = "+ n3 +"\nRata-Rata = "+ (n1+n2+n3)/(float)3;
+        String msg = "Number 1 = "+ n1+"\nNumber 2 = "+ n2+"\nNumber 3 = "+ n3 +"\nRata-Rata = "+ (n1+n2+n3)/3;
         JOptionPane.showMessageDialog(null, msg);
     }
     /**
